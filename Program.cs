@@ -26,6 +26,7 @@ namespace FirstClass
             return fibonacci ; 
             
         } 
+        public IEnumerable<int>  
 
     }
 }
