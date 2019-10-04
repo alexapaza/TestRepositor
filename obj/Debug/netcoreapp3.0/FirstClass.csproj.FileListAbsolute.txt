@@ -1,0 +1,11 @@
+D:\CS intermediate\AlexPractice\practice1\FirstClass\bin\Debug\netcoreapp3.0\FirstClass.exe
+D:\CS intermediate\AlexPractice\practice1\FirstClass\bin\Debug\netcoreapp3.0\FirstClass.deps.json
+D:\CS intermediate\AlexPractice\practice1\FirstClass\bin\Debug\netcoreapp3.0\FirstClass.runtimeconfig.json
+D:\CS intermediate\AlexPractice\practice1\FirstClass\bin\Debug\netcoreapp3.0\FirstClass.runtimeconfig.dev.json
+D:\CS intermediate\AlexPractice\practice1\FirstClass\bin\Debug\netcoreapp3.0\FirstClass.dll
+D:\CS intermediate\AlexPractice\practice1\FirstClass\bin\Debug\netcoreapp3.0\FirstClass.pdb
+D:\CS intermediate\AlexPractice\practice1\FirstClass\obj\Debug\netcoreapp3.0\FirstClass.csprojAssemblyReference.cache
+D:\CS intermediate\AlexPractice\practice1\FirstClass\obj\Debug\netcoreapp3.0\FirstClass.AssemblyInfoInputs.cache
+D:\CS intermediate\AlexPractice\practice1\FirstClass\obj\Debug\netcoreapp3.0\FirstClass.AssemblyInfo.cs
+D:\CS intermediate\AlexPractice\practice1\FirstClass\obj\Debug\netcoreapp3.0\FirstClass.dll
+D:\CS intermediate\AlexPractice\practice1\FirstClass\obj\Debug\netcoreapp3.0\FirstClass.pdb
