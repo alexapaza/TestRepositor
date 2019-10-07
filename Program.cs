@@ -14,10 +14,10 @@ namespace FirstClass
             */
 
 
-              IEnumerable<int> mysequence = GeneratorSequence();
+            //  IEnumerable<int> mysequence = GeneratorSequence();
             /*Console.WriteLine("press key");
             Console.ReadKey();  */
-            int i = 0;
+            /*int i = 0;
             foreach (var item in mysequence)
             {
                 if(i==10){
@@ -25,6 +25,42 @@ namespace FirstClass
                 }
                 Console.WriteLine(item);
                 i++;
+            }*/
+
+            /*IEnumerable<int> myFibonaci = generateFibonaci01();
+            IEnumerator<int> enumerator = myFibonaci.GetEnumerator();
+            int limit = 0;
+            while (enumerator.MoveNext())
+            {
+                if(limit < 11){
+                    Console.WriteLine(enumerator.Current);    
+                    limit ++;
+                }
+            }*/
+
+           /* IEnumerable<int> myfibonasies = evenOnly(generateFibonaci01());
+            IEnumerator<int> sequence =  myfibonasies.GetEnumerator();
+            int limit = 0;
+            while (sequence.MoveNext())
+            {
+                 if(limit > 10 ){
+                     break;   
+                 }else{
+                     Console.WriteLine(sequence.Current);
+                     limit++;
+                 }
+            }
+            */
+            int i = 0;
+            foreach (var item in evenOnly(generateFibonaci01()))
+            {
+                if (i>10)
+                {
+                    break;
+                }else{
+                    Console.WriteLine(item);
+                    i++;
+                }
             }
 
 
@@ -83,6 +119,29 @@ namespace FirstClass
 
 
         }
+        public static IEnumerable<int> generateFibonaci01(){
+            int current = 0;
+            int next = 1;
+            while (true)
+            {
+                yield return current;
+                int nextnext = current +next;
+                current = next;
+                next = nextnext;
+            }   
+        
+        }
+        public static IEnumerable<int> evenOnly(IEnumerable<int> fibonaci){
+            foreach (var item in fibonaci)
+            {
+                if (item % 2 ==0)
+                {
+                    yield return item;
+                }
+                
+            }
+        }
 
     }
+    
 }
