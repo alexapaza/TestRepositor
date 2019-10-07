@@ -1,0 +1,23 @@
+D:\CS intermediate\AlexPractice\practice1\FirstClass>dotnet run
+first line
+10
+second line
+20
+abase line
+1000
+local var:1
+bbase line
+2000
+local var:2
+cbase line
+3000
+local var:3
+dbase line
+4000
+local var:4
+ebase line
+5000
+third line
+30
+forth line
+40
